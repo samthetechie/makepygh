@@ -1,6 +1,6 @@
 # README Boilerplate
 
-A template of README best practices to make your README simple to understand and easy to use. 
+A template of README best practices to make your README simple to understand and easy to use.
 
 ## Table of Contents
 
@@ -11,12 +11,18 @@ A template of README best practices to make your README simple to understand and
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
+1. install virtualenv
+2. install virtualenvwrapper
+3. create an authentication token via https://github.com/settings/tokens
+Generate Access Token -> enter it in below in place of <token>
+
+<script src="https://gist.github.com/samthetechie/b9591482cec7abe3118f837def030a64.js"></script>
+
+copy the above ~/.bashrc snippets to the bottom of ~/.bashrc, and reload bash with source ~/.bash_profile:
 
 ```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
+git config --global github.token <token>
+git config --global github.user <username>'
 ```
 
 ## Usage
