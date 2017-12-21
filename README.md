@@ -15,10 +15,8 @@ A template of README best practices to make your README simple to understand and
 2. install virtualenvwrapper
 3. create an authentication token via https://github.com/settings/tokens
 Generate Access Token -> enter it in below in place of <token>
-
-<script src="https://gist.github.com/samthetechie/b9591482cec7abe3118f837def030a64.js"></script>
-
-copy the above ~/.bashrc snippets to the bottom of ~/.bashrc, and reload bash with source ~/.bash_profile:
+4. Have a look at [This Gist](https://gist.github.com/samthetechie/b9591482cec7abe3118f837def030a64) for my ~/.bashrc functions for creating and deleting github repos.
+5. Copy the above ~/.bashrc snippets to the bottom of ~/.bashrc, and reload bash with source ~/.bash_profile:
 
 ```sh
 git config --global github.token <token>
